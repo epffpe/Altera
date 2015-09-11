@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Jan 14 22:24:10 2013
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Web Edition
+Revision Name : light
+Top-level Entity Name : light
+Family : Cyclone III
+Device : EP3C25F324C6
+Timing Models : Final
+Total logic elements : 2,119 / 24,624 ( 9 % )
+    Total combinational functions : 1,992 / 24,624 ( 8 % )
+    Dedicated logic registers : 1,191 / 24,624 ( 5 % )
+Total registers : 1191
+Total pins : 18 / 216 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 77,952 / 608,256 ( 13 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

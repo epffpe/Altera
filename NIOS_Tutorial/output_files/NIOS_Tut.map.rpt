@@ -1,0 +1,571 @@
+Analysis & Synthesis report for NIOS_Tut
+Sun Jan 13 20:35:36 2013
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis IP Cores Summary
+  6. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++------------------------------------+------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Sun Jan 13 20:35:36 2013        ;
+; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
+; Revision Name                      ; NIOS_Tut                                 ;
+; Top-level Entity Name              ; nios2_quartus2_project                   ;
+; Family                             ; Cyclone III                              ;
+; Total logic elements               ; N/A until Partition Merge                ;
+;     Total combinational functions  ; N/A until Partition Merge                ;
+;     Dedicated logic registers      ; N/A until Partition Merge                ;
+; Total registers                    ; N/A until Partition Merge                ;
+; Total pins                         ; N/A until Partition Merge                ;
+; Total virtual pins                 ; N/A until Partition Merge                ;
+; Total memory bits                  ; N/A until Partition Merge                ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                ;
+; Total PLLs                         ; N/A until Partition Merge                ;
++------------------------------------+------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                            ;
++----------------------------------------------------------------------------+------------------------+--------------------+
+; Option                                                                     ; Setting                ; Default Value      ;
++----------------------------------------------------------------------------+------------------------+--------------------+
+; Device                                                                     ; EP3C25F324C6           ;                    ;
+; Top-level entity name                                                      ; nios2_quartus2_project ; NIOS_Tut           ;
+; Family name                                                                ; Cyclone III            ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                    ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                     ; On                 ;
+; Enable compact report table                                                ; Off                    ; Off                ;
+; Restructure Multiplexers                                                   ; Auto                   ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                    ; Off                ;
+; Preserve fewer node names                                                  ; On                     ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                    ; Off                ;
+; Verilog Version                                                            ; Verilog_2001           ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993              ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto                   ; Auto               ;
+; Safe State Machine                                                         ; Off                    ; Off                ;
+; Extract Verilog State Machines                                             ; On                     ; On                 ;
+; Extract VHDL State Machines                                                ; On                     ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                    ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000                   ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                    ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                     ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                     ; On                 ;
+; Parallel Synthesis                                                         ; On                     ; On                 ;
+; DSP Block Balancing                                                        ; Auto                   ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                     ; On                 ;
+; Power-Up Don't Care                                                        ; On                     ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                    ; Off                ;
+; Remove Duplicate Registers                                                 ; On                     ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                    ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                    ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                    ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                    ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                    ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                     ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                    ; Off                ;
+; Optimization Technique                                                     ; Balanced               ; Balanced           ;
+; Carry Chain Length                                                         ; 70                     ; 70                 ;
+; Auto Carry Chains                                                          ; On                     ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                     ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                    ; Off                ;
+; Auto ROM Replacement                                                       ; On                     ; On                 ;
+; Auto RAM Replacement                                                       ; On                     ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                     ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto                   ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto                   ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                     ; On                 ;
+; Strict RAM Replacement                                                     ; Off                    ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                     ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                    ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                     ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                    ; Off                ;
+; Auto Resource Sharing                                                      ; Off                    ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                    ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                    ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                    ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                     ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                    ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                     ; On                 ;
+; Report Parameter Settings                                                  ; On                     ; On                 ;
+; Report Source Assignments                                                  ; On                     ; On                 ;
+; Report Connectivity Checks                                                 ; On                     ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                    ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                      ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation     ; Normal compilation ;
+; HDL message level                                                          ; Level2                 ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                    ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000                   ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000                   ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                    ; 100                ;
+; Clock MUX Protection                                                       ; On                     ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                    ; Off                ;
+; Block Design Naming                                                        ; Auto                   ; Auto               ;
+; SDC constraint protection                                                  ; Off                    ; Off                ;
+; Synthesis Effort                                                           ; Auto                   ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                     ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                    ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium                 ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto                   ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                     ; On                 ;
+; Synthesis Seed                                                             ; 1                      ; 1                  ;
++----------------------------------------------------------------------------+------------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                     ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+----------------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                              ; IP Include File                                                            ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+----------------------------------------------------------------------------+
+; Altera ; qsys         ; 12.1    ; N/A          ; N/A          ; |nios2_quartus2_project|NIOSII_Tutorial:inst ; D:/Design/Altera/NIOS_Tutorial/NIOSII_Tutorial/synthesis/NIOSII_Tutorial.v ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+----------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
+    Info: Processing started: Sun Jan 13 20:34:51 2013
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off NIOS_Tut -c NIOS_Tut
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12248): Elaborating Qsys system entity "NIOSII_Tutorial.qsys"
+Info (12250): 2013.01.13.20:34:54 Progress: Loading NIOS_Tutorial/NIOSII_Tutorial.qsys
+Info (12250): 2013.01.13.20:34:54 Progress: Reading input file
+Info (12250): 2013.01.13.20:34:54 Progress: Adding clk_0 [clock_source 12.1]
+Info (12250): 2013.01.13.20:34:54 Progress: Parameterizing module clk_0
+Info (12250): 2013.01.13.20:34:54 Progress: Adding onchip_mem [altera_avalon_onchip_memory2 12.1]
+Info (12250): 2013.01.13.20:34:54 Progress: Parameterizing module onchip_mem
+Info (12250): 2013.01.13.20:34:54 Progress: Adding cpu [altera_nios2_qsys 12.1]
+Info (12250): 2013.01.13.20:34:55 Progress: Parameterizing module cpu
+Info (12250): 2013.01.13.20:34:55 Progress: Adding jtag_uart [altera_avalon_jtag_uart 12.1]
+Info (12250): 2013.01.13.20:34:55 Progress: Parameterizing module jtag_uart
+Info (12250): 2013.01.13.20:34:55 Progress: Adding sys_clk_timer [altera_avalon_timer 12.1]
+Info (12250): 2013.01.13.20:34:55 Progress: Parameterizing module sys_clk_timer
+Info (12250): 2013.01.13.20:34:55 Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Info (12250): 2013.01.13.20:34:55 Progress: Parameterizing module sysid
+Info (12250): 2013.01.13.20:34:55 Progress: Adding led_pio [altera_avalon_pio 12.1]
+Info (12250): 2013.01.13.20:34:55 Progress: Parameterizing module led_pio
+Info (12250): 2013.01.13.20:34:55 Progress: Building connections
+Info (12250): 2013.01.13.20:34:55 Progress: Parameterizing connections
+Info (12250): 2013.01.13.20:34:55 Progress: Validating
+Info (12250): 2013.01.13.20:34:56 Progress: Done reading input file
+Info (12250): NIOSII_Tutorial.onchip_mem: Memory will be initialized from onchip_mem.hex
+Info (12250): NIOSII_Tutorial.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info (12250): NIOSII_Tutorial.sysid: Time stamp will be automatically updated when this component is generated.
+Info (12250): NIOSII_Tutorial: Generating NIOSII_Tutorial "NIOSII_Tutorial" for QUARTUS_SYNTH
+Info (12250): Pipeline_bridge_swap_transform: After transform: 7 modules, 22 connections
+Info (12250): No custom instruction connections, skipping transform 
+Info (12250): Merlin_translator_transform: After transform: 15 modules, 46 connections
+Info (12250): Merlin_domain_transform: After transform: 30 modules, 124 connections
+Info (12250): Merlin_router_transform: After transform: 38 modules, 148 connections
+Info (12250): Merlin_traffic_limiter_transform: After transform: 39 modules, 152 connections
+Info (12250): Reset_adaptation_transform: After transform: 40 modules, 154 connections
+Info (12250): Merlin_network_to_switch_transform: After transform: 55 modules, 186 connections
+Info (12250): Limiter_update_transform: After transform: 55 modules, 187 connections
+Info (12250): Merlin_interrupt_mapper_transform: After transform: 56 modules, 190 connections
+Info (12250): Starting classic module elaboration.
+Info (12250): 2013.01.13.20:34:59 cygwin warning:
+Info (12250): 2013.01.13.20:34:59   MS-DOS style path detected: C:/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:34:59   Preferred POSIX equivalent is: /cygdrive/c/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:34:59   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+Info (12250): 2013.01.13.20:34:59   Consult the user's guide for more details about POSIX paths:
+Info (12250): 2013.01.13.20:34:59     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Info (12250): 2013.01.13.20:35:00 "c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0001_sopclgen  --no_splash --refresh C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0001_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info (12250): Finished elaborating classic module.
+Info (12250): 2013.01.13.20:35:01 Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0001_sopclgen/yysystem.ptf
+Info (12250): Running sopc_builder...
+Info (12250): 2013.01.13.20:35:01 cygwin warning:
+Info (12250): 2013.01.13.20:35:01   MS-DOS style path detected: C:/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:01   Preferred POSIX equivalent is: /cygdrive/c/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:01   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+Info (12250): 2013.01.13.20:35:01   Consult the user's guide for more details about POSIX paths:
+Info (12250): 2013.01.13.20:35:01     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Info (12250): 2013.01.13.20:35:02 "c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0001_sopclgen  --generate C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0001_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info (12250): 2013.01.13.20:35:03 No .sopc_builder configuration file(!)
+Info (12250): 2013.01.13.20:35:03 .
+Info (12250): 2013.01.13.20:35:04 # 2013.01.13 20:35:04 (*) Success: sopc_builder finished.
+Info (12250): Onchip_mem: "NIOSII_Tutorial" instantiated altera_avalon_onchip_memory2 "onchip_mem"
+Info (12250): Cpu: Starting RTL generation for module 'NIOSII_Tutorial_cpu'
+Info (12250): Cpu:   Generation command is [exec C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.1/quartus/sopc_builder/bin/europa -I C:/altera/12.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.1/quartus/sopc_builder/bin -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=NIOSII_Tutorial_cpu --dir=C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0002_cpu_gen/ --quartus_dir=C:/altera/12.1/quartus --verilog --config=C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0002_cpu_gen//NIOSII_Tutorial_cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info (12250): Cpu: # 2013.01.13 20:35:06 (*) Starting Nios II generation
+Info (12250): Cpu: # 2013.01.13 20:35:06 (*)   Checking for plaintext license.
+Info (12250): Cpu: # 2013.01.13 20:35:07 (*)   Couldn't query license setup in Quartus directory C:/altera/12.1/quartus
+Info (12250): Cpu: # 2013.01.13 20:35:07 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info (12250): Cpu: # 2013.01.13 20:35:07 (*)   LM_LICENSE_FILE environment variable is empty
+Info (12250): Cpu: # 2013.01.13 20:35:07 (*)   Plaintext license not found.
+Info (12250): Cpu: # 2013.01.13 20:35:07 (*)   Checking for encrypted license (non-evaluation).
+Info (12250): Cpu: # 2013.01.13 20:35:08 (*)   Couldn't query license setup in Quartus directory C:/altera/12.1/quartus
+Info (12250): Cpu: # 2013.01.13 20:35:08 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info (12250): Cpu: # 2013.01.13 20:35:08 (*)   LM_LICENSE_FILE environment variable is empty
+Info (12250): Cpu: # 2013.01.13 20:35:08 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info (12250): Cpu: # 2013.01.13 20:35:08 (*)   Elaborating CPU configuration settings
+Info (12250): Cpu: # 2013.01.13 20:35:08 (*)   Creating all objects for CPU
+Info (12250): Cpu: # 2013.01.13 20:35:09 (*)     Pipeline frontend
+Info (12250): Cpu: # 2013.01.13 20:35:10 (*)   Generating RTL from CPU objects
+Info (12250): Cpu: # 2013.01.13 20:35:13 (*)   Creating encrypted RTL
+Info (12250): Cpu: # 2013.01.13 20:35:14 (*) Done Nios II generation
+Info (12250): Cpu: Done RTL generation for module 'NIOSII_Tutorial_cpu'
+Info (12250): Cpu: "NIOSII_Tutorial" instantiated altera_nios2_qsys "cpu"
+Info (12250): Starting classic module elaboration.
+Info (12250): 2013.01.13.20:35:14 cygwin warning:
+Info (12250): 2013.01.13.20:35:14   MS-DOS style path detected: C:/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:14   Preferred POSIX equivalent is: /cygdrive/c/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:14   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+Info (12250): 2013.01.13.20:35:14   Consult the user's guide for more details about POSIX paths:
+Info (12250): 2013.01.13.20:35:14     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Info (12250): 2013.01.13.20:35:15 "c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0003_sopclgen  --no_splash --refresh C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0003_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info (12250): Finished elaborating classic module.
+Info (12250): 2013.01.13.20:35:16 Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0003_sopclgen/yysystem.ptf
+Info (12250): Running sopc_builder...
+Info (12250): 2013.01.13.20:35:16 cygwin warning:
+Info (12250): 2013.01.13.20:35:16   MS-DOS style path detected: C:/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:16   Preferred POSIX equivalent is: /cygdrive/c/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:16   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+Info (12250): 2013.01.13.20:35:16   Consult the user's guide for more details about POSIX paths:
+Info (12250): 2013.01.13.20:35:16     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Info (12250): 2013.01.13.20:35:17 "c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0003_sopclgen  --generate C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0003_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info (12250): 2013.01.13.20:35:19 No .sopc_builder configuration file(!)
+Info (12250): 2013.01.13.20:35:19 .
+Info (12250): 2013.01.13.20:35:20 # 2013.01.13 20:35:20 (*) Success: sopc_builder finished.
+Info (12250): Jtag_uart: "NIOSII_Tutorial" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info (12250): Starting classic module elaboration.
+Info (12250): 2013.01.13.20:35:20 cygwin warning:
+Info (12250): 2013.01.13.20:35:20   MS-DOS style path detected: C:/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:20   Preferred POSIX equivalent is: /cygdrive/c/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:20   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+Info (12250): 2013.01.13.20:35:20   Consult the user's guide for more details about POSIX paths:
+Info (12250): 2013.01.13.20:35:20     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Info (12250): 2013.01.13.20:35:21 "c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0004_sopclgen  --no_splash --refresh C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0004_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info (12250): Finished elaborating classic module.
+Info (12250): 2013.01.13.20:35:23 Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0004_sopclgen/yysystem.ptf
+Info (12250): Running sopc_builder...
+Info (12250): 2013.01.13.20:35:23 cygwin warning:
+Info (12250): 2013.01.13.20:35:23   MS-DOS style path detected: C:/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:23   Preferred POSIX equivalent is: /cygdrive/c/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:23   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+Info (12250): 2013.01.13.20:35:23   Consult the user's guide for more details about POSIX paths:
+Info (12250): 2013.01.13.20:35:23     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Info (12250): 2013.01.13.20:35:24 "c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0004_sopclgen  --generate C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0004_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info (12250): 2013.01.13.20:35:25 No .sopc_builder configuration file(!)
+Info (12250): 2013.01.13.20:35:25 .
+Info (12250): 2013.01.13.20:35:26 # 2013.01.13 20:35:26 (*) Success: sopc_builder finished.
+Info (12250): Sys_clk_timer: "NIOSII_Tutorial" instantiated altera_avalon_timer "sys_clk_timer"
+Info (12250): Sysid: "NIOSII_Tutorial" instantiated altera_avalon_sysid_qsys "sysid"
+Info (12250): Starting classic module elaboration.
+Info (12250): 2013.01.13.20:35:27 cygwin warning:
+Info (12250): 2013.01.13.20:35:27   MS-DOS style path detected: C:/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:27   Preferred POSIX equivalent is: /cygdrive/c/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:27   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+Info (12250): 2013.01.13.20:35:27   Consult the user's guide for more details about POSIX paths:
+Info (12250): 2013.01.13.20:35:27     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Info (12250): 2013.01.13.20:35:27 "c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0006_sopclgen  --no_splash --refresh C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0006_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info (12250): Finished elaborating classic module.
+Info (12250): 2013.01.13.20:35:29 Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0006_sopclgen/yysystem.ptf
+Info (12250): Running sopc_builder...
+Info (12250): 2013.01.13.20:35:29 cygwin warning:
+Info (12250): 2013.01.13.20:35:29   MS-DOS style path detected: C:/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:29   Preferred POSIX equivalent is: /cygdrive/c/altera/12.1/quartus/sopc_builder/bin/nios_sh
+Info (12250): 2013.01.13.20:35:29   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+Info (12250): 2013.01.13.20:35:29   Consult the user's guide for more details about POSIX paths:
+Info (12250): 2013.01.13.20:35:29     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Info (12250): 2013.01.13.20:35:30 "c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0006_sopclgen  --generate C:/Users/epf/AppData/Local/Temp/alt5718_1336350298207736606.dir/0006_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info (12250): 2013.01.13.20:35:31 No .sopc_builder configuration file(!)
+Info (12250): 2013.01.13.20:35:31 .
+Info (12250): 2013.01.13.20:35:32 # 2013.01.13 20:35:32 (*) Success: sopc_builder finished.
+Info (12250): Led_pio: "NIOSII_Tutorial" instantiated altera_avalon_pio "led_pio"
+Info (12250): Cpu_instruction_master_translator: "NIOSII_Tutorial" instantiated altera_merlin_master_translator "cpu_instruction_master_translator"
+Info (12250): Cpu_jtag_debug_module_translator: "NIOSII_Tutorial" instantiated altera_merlin_slave_translator "cpu_jtag_debug_module_translator"
+Info (12250): Cpu_instruction_master_translator_avalon_universal_master_0_agent: "NIOSII_Tutorial" instantiated altera_merlin_master_agent "cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info (12250): Cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "NIOSII_Tutorial" instantiated altera_merlin_slave_agent "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info (12250): Cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "NIOSII_Tutorial" instantiated altera_avalon_sc_fifo "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info (12250): Addr_router: "NIOSII_Tutorial" instantiated altera_merlin_router "addr_router"
+Info (12250): Addr_router_001: "NIOSII_Tutorial" instantiated altera_merlin_router "addr_router_001"
+Info (12250): Id_router: "NIOSII_Tutorial" instantiated altera_merlin_router "id_router"
+Info (12250): Id_router_002: "NIOSII_Tutorial" instantiated altera_merlin_router "id_router_002"
+Info (12250): Limiter: "NIOSII_Tutorial" instantiated altera_merlin_traffic_limiter "limiter"
+Info (12250): Rst_controller: "NIOSII_Tutorial" instantiated altera_reset_controller "rst_controller"
+Info (12250): Cmd_xbar_demux: "NIOSII_Tutorial" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info (12250): Cmd_xbar_demux_001: "NIOSII_Tutorial" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info (12250): Cmd_xbar_mux: "NIOSII_Tutorial" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info (12250): Rsp_xbar_demux: "NIOSII_Tutorial" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info (12250): Rsp_xbar_demux_002: "NIOSII_Tutorial" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info (12250): Rsp_xbar_mux: "NIOSII_Tutorial" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info (12250): Reusing file D:/Design/Altera/NIOS_Tutorial/db/ip/NIOSII_Tutorial/submodules/altera_merlin_arbitrator.sv
+Info (12250): Rsp_xbar_mux_001: "NIOSII_Tutorial" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info (12250): Reusing file D:/Design/Altera/NIOS_Tutorial/db/ip/NIOSII_Tutorial/submodules/altera_merlin_arbitrator.sv
+Info (12250): Irq_mapper: "NIOSII_Tutorial" instantiated altera_irq_mapper "irq_mapper"
+Info (12250): NIOSII_Tutorial: Done NIOSII_Tutorial" with 26 modules, 78 files, 1514052 bytes
+Info (12249): Finished elaborating Qsys system entity "NIOSII_Tutorial.qsys"
+Info (12021): Found 1 design units, including 1 entities, in source file nios2_quartus2_project.bdf
+    Info (12023): Found entity 1: nios2_quartus2_project
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/niosii_tutorial.v
+    Info (12023): Found entity 1: NIOSII_Tutorial
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_irq_mapper.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_irq_mapper
+Info (12021): Found 2 design units, including 2 entities, in source file niosii_tutorial/synthesis/submodules/altera_merlin_arbitrator.sv
+    Info (12023): Found entity 1: altera_merlin_arbitrator
+    Info (12023): Found entity 2: altera_merlin_arb_adder
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_rsp_xbar_mux_001.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_rsp_xbar_mux_001
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_rsp_xbar_mux.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_rsp_xbar_mux
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_rsp_xbar_demux_002.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_rsp_xbar_demux_002
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_rsp_xbar_demux.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_rsp_xbar_demux
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cmd_xbar_mux.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_cmd_xbar_mux
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cmd_xbar_demux_001.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_cmd_xbar_demux_001
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cmd_xbar_demux.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_cmd_xbar_demux
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_reset_controller.v
+    Info (12023): Found entity 1: altera_reset_controller
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_reset_synchronizer.v
+    Info (12023): Found entity 1: altera_reset_synchronizer
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_merlin_traffic_limiter.sv
+    Info (12023): Found entity 1: altera_merlin_traffic_limiter
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_avalon_st_pipeline_base.v
+    Info (12023): Found entity 1: altera_avalon_st_pipeline_base
+Info (12021): Found 2 design units, including 2 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_id_router_002.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_id_router_002_default_decode
+    Info (12023): Found entity 2: NIOSII_Tutorial_id_router_002
+Info (12021): Found 2 design units, including 2 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_id_router.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_id_router_default_decode
+    Info (12023): Found entity 2: NIOSII_Tutorial_id_router
+Info (12021): Found 2 design units, including 2 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_addr_router_001.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_addr_router_001_default_decode
+    Info (12023): Found entity 2: NIOSII_Tutorial_addr_router_001
+Info (12021): Found 2 design units, including 2 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_addr_router.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_addr_router_default_decode
+    Info (12023): Found entity 2: NIOSII_Tutorial_addr_router
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_avalon_sc_fifo.v
+    Info (12023): Found entity 1: altera_avalon_sc_fifo
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_merlin_slave_agent.sv
+    Info (12023): Found entity 1: altera_merlin_slave_agent
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+    Info (12023): Found entity 1: altera_merlin_burst_uncompressor
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_merlin_master_agent.sv
+    Info (12023): Found entity 1: altera_merlin_master_agent
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_merlin_slave_translator.sv
+    Info (12023): Found entity 1: altera_merlin_slave_translator
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/altera_merlin_master_translator.sv
+    Info (12023): Found entity 1: altera_merlin_master_translator
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_led_pio.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_led_pio
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_sysid.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_sysid
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_sys_clk_timer.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_sys_clk_timer
+Info (12021): Found 7 design units, including 7 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_jtag_uart.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_jtag_uart_log_module
+    Info (12023): Found entity 2: NIOSII_Tutorial_jtag_uart_sim_scfifo_w
+    Info (12023): Found entity 3: NIOSII_Tutorial_jtag_uart_scfifo_w
+    Info (12023): Found entity 4: NIOSII_Tutorial_jtag_uart_drom_module
+    Info (12023): Found entity 5: NIOSII_Tutorial_jtag_uart_sim_scfifo_r
+    Info (12023): Found entity 6: NIOSII_Tutorial_jtag_uart_scfifo_r
+    Info (12023): Found entity 7: NIOSII_Tutorial_jtag_uart
+Info (12021): Found 24 design units, including 24 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cpu.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_ic_data_module
+    Info (12023): Found entity 2: NIOSII_Tutorial_cpu_ic_tag_module
+    Info (12023): Found entity 3: NIOSII_Tutorial_cpu_register_bank_a_module
+    Info (12023): Found entity 4: NIOSII_Tutorial_cpu_register_bank_b_module
+    Info (12023): Found entity 5: NIOSII_Tutorial_cpu_nios2_oci_debug
+    Info (12023): Found entity 6: NIOSII_Tutorial_cpu_ociram_lpm_dram_bdp_component_module
+    Info (12023): Found entity 7: NIOSII_Tutorial_cpu_nios2_ocimem
+    Info (12023): Found entity 8: NIOSII_Tutorial_cpu_nios2_avalon_reg
+    Info (12023): Found entity 9: NIOSII_Tutorial_cpu_nios2_oci_break
+    Info (12023): Found entity 10: NIOSII_Tutorial_cpu_nios2_oci_xbrk
+    Info (12023): Found entity 11: NIOSII_Tutorial_cpu_nios2_oci_dbrk
+    Info (12023): Found entity 12: NIOSII_Tutorial_cpu_nios2_oci_itrace
+    Info (12023): Found entity 13: NIOSII_Tutorial_cpu_nios2_oci_td_mode
+    Info (12023): Found entity 14: NIOSII_Tutorial_cpu_nios2_oci_dtrace
+    Info (12023): Found entity 15: NIOSII_Tutorial_cpu_nios2_oci_compute_tm_count
+    Info (12023): Found entity 16: NIOSII_Tutorial_cpu_nios2_oci_fifowp_inc
+    Info (12023): Found entity 17: NIOSII_Tutorial_cpu_nios2_oci_fifocount_inc
+    Info (12023): Found entity 18: NIOSII_Tutorial_cpu_nios2_oci_fifo
+    Info (12023): Found entity 19: NIOSII_Tutorial_cpu_nios2_oci_pib
+    Info (12023): Found entity 20: NIOSII_Tutorial_cpu_traceram_lpm_dram_bdp_component_module
+    Info (12023): Found entity 21: NIOSII_Tutorial_cpu_nios2_oci_im
+    Info (12023): Found entity 22: NIOSII_Tutorial_cpu_nios2_performance_monitors
+    Info (12023): Found entity 23: NIOSII_Tutorial_cpu_nios2_oci
+    Info (12023): Found entity 24: NIOSII_Tutorial_cpu
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cpu_jtag_debug_module_sysclk.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_jtag_debug_module_sysclk
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cpu_jtag_debug_module_tck.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_jtag_debug_module_tck
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cpu_jtag_debug_module_wrapper.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_jtag_debug_module_wrapper
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cpu_oci_test_bench.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_oci_test_bench
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_cpu_test_bench.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_test_bench
+Info (12021): Found 1 design units, including 1 entities, in source file niosii_tutorial/synthesis/submodules/niosii_tutorial_onchip_mem.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_onchip_mem
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/niosii_tutorial.v
+    Info (12023): Found entity 1: NIOSII_Tutorial
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_addr_router.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_addr_router_default_decode
+    Info (12023): Found entity 2: NIOSII_Tutorial_addr_router
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_addr_router_001.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_addr_router_001_default_decode
+    Info (12023): Found entity 2: NIOSII_Tutorial_addr_router_001
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cmd_xbar_demux.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_cmd_xbar_demux
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cmd_xbar_demux_001.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_cmd_xbar_demux_001
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cmd_xbar_mux.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_cmd_xbar_mux
+Info (12021): Found 24 design units, including 24 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cpu.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_ic_data_module
+    Info (12023): Found entity 2: NIOSII_Tutorial_cpu_ic_tag_module
+    Info (12023): Found entity 3: NIOSII_Tutorial_cpu_register_bank_a_module
+    Info (12023): Found entity 4: NIOSII_Tutorial_cpu_register_bank_b_module
+    Info (12023): Found entity 5: NIOSII_Tutorial_cpu_nios2_oci_debug
+    Info (12023): Found entity 6: NIOSII_Tutorial_cpu_ociram_lpm_dram_bdp_component_module
+    Info (12023): Found entity 7: NIOSII_Tutorial_cpu_nios2_ocimem
+    Info (12023): Found entity 8: NIOSII_Tutorial_cpu_nios2_avalon_reg
+    Info (12023): Found entity 9: NIOSII_Tutorial_cpu_nios2_oci_break
+    Info (12023): Found entity 10: NIOSII_Tutorial_cpu_nios2_oci_xbrk
+    Info (12023): Found entity 11: NIOSII_Tutorial_cpu_nios2_oci_dbrk
+    Info (12023): Found entity 12: NIOSII_Tutorial_cpu_nios2_oci_itrace
+    Info (12023): Found entity 13: NIOSII_Tutorial_cpu_nios2_oci_td_mode
+    Info (12023): Found entity 14: NIOSII_Tutorial_cpu_nios2_oci_dtrace
+    Info (12023): Found entity 15: NIOSII_Tutorial_cpu_nios2_oci_compute_tm_count
+    Info (12023): Found entity 16: NIOSII_Tutorial_cpu_nios2_oci_fifowp_inc
+    Info (12023): Found entity 17: NIOSII_Tutorial_cpu_nios2_oci_fifocount_inc
+    Info (12023): Found entity 18: NIOSII_Tutorial_cpu_nios2_oci_fifo
+    Info (12023): Found entity 19: NIOSII_Tutorial_cpu_nios2_oci_pib
+    Info (12023): Found entity 20: NIOSII_Tutorial_cpu_traceram_lpm_dram_bdp_component_module
+    Info (12023): Found entity 21: NIOSII_Tutorial_cpu_nios2_oci_im
+    Info (12023): Found entity 22: NIOSII_Tutorial_cpu_nios2_performance_monitors
+    Info (12023): Found entity 23: NIOSII_Tutorial_cpu_nios2_oci
+    Info (12023): Found entity 24: NIOSII_Tutorial_cpu
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cpu_jtag_debug_module_sysclk.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_jtag_debug_module_sysclk
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cpu_jtag_debug_module_tck.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_jtag_debug_module_tck
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cpu_jtag_debug_module_wrapper.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_jtag_debug_module_wrapper
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cpu_oci_test_bench.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_oci_test_bench
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_cpu_test_bench.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_cpu_test_bench
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_id_router.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_id_router_default_decode
+    Info (12023): Found entity 2: NIOSII_Tutorial_id_router
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_id_router_002.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_id_router_002_default_decode
+    Info (12023): Found entity 2: NIOSII_Tutorial_id_router_002
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_irq_mapper.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_irq_mapper
+Info (12021): Found 7 design units, including 7 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_jtag_uart.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_jtag_uart_log_module
+    Info (12023): Found entity 2: NIOSII_Tutorial_jtag_uart_sim_scfifo_w
+    Info (12023): Found entity 3: NIOSII_Tutorial_jtag_uart_scfifo_w
+    Info (12023): Found entity 4: NIOSII_Tutorial_jtag_uart_drom_module
+    Info (12023): Found entity 5: NIOSII_Tutorial_jtag_uart_sim_scfifo_r
+    Info (12023): Found entity 6: NIOSII_Tutorial_jtag_uart_scfifo_r
+    Info (12023): Found entity 7: NIOSII_Tutorial_jtag_uart
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_led_pio.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_led_pio
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_onchip_mem.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_onchip_mem
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_rsp_xbar_demux.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_rsp_xbar_demux
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_rsp_xbar_demux_002.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_rsp_xbar_demux_002
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_rsp_xbar_mux.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_rsp_xbar_mux
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_rsp_xbar_mux_001.sv
+    Info (12023): Found entity 1: NIOSII_Tutorial_rsp_xbar_mux_001
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_sys_clk_timer.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_sys_clk_timer
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/niosii_tutorial_sysid.v
+    Info (12023): Found entity 1: NIOSII_Tutorial_sysid
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_avalon_sc_fifo.v
+    Info (12023): Found entity 1: altera_avalon_sc_fifo
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_avalon_st_pipeline_base.v
+    Info (12023): Found entity 1: altera_avalon_st_pipeline_base
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/niosii_tutorial/submodules/altera_merlin_arbitrator.sv
+    Info (12023): Found entity 1: altera_merlin_arbitrator
+    Info (12023): Found entity 2: altera_merlin_arb_adder
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_merlin_burst_uncompressor.sv
+    Info (12023): Found entity 1: altera_merlin_burst_uncompressor
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_merlin_master_agent.sv
+    Info (12023): Found entity 1: altera_merlin_master_agent
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_merlin_master_translator.sv
+    Info (12023): Found entity 1: altera_merlin_master_translator
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_merlin_slave_agent.sv
+    Info (12023): Found entity 1: altera_merlin_slave_agent
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_merlin_slave_translator.sv
+    Info (12023): Found entity 1: altera_merlin_slave_translator
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_merlin_traffic_limiter.sv
+    Info (12023): Found entity 1: altera_merlin_traffic_limiter
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_reset_controller.v
+    Info (12023): Found entity 1: altera_reset_controller
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/niosii_tutorial/submodules/altera_reset_synchronizer.v
+    Info (12023): Found entity 1: altera_reset_synchronizer
+Warning (10037): Verilog HDL or VHDL warning at NIOSII_Tutorial_cpu.v(1748): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at NIOSII_Tutorial_cpu.v(1750): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at NIOSII_Tutorial_cpu.v(1906): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at NIOSII_Tutorial_cpu.v(2825): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at NIOSII_Tutorial_cpu.v(1748): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at NIOSII_Tutorial_cpu.v(1750): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at NIOSII_Tutorial_cpu.v(1906): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at NIOSII_Tutorial_cpu.v(2825): conditional expression evaluates to a constant
+Info (12127): Elaborating entity "nios2_quartus2_project" for the top level hierarchy
+Error (12179): Instance "NIOSII_Tutorial:inst" is ambiguous
+    Error (12180): Instance could be entity "NIOSII_Tutorial" in file NIOSII_Tutorial/synthesis/NIOSII_Tutorial.v compiled in library NIOSII_Tutorial File: D:/Design/Altera/NIOS_Tutorial/NIOSII_Tutorial/synthesis/NIOSII_Tutorial.v Line: 6
+    Error (12180): Instance could be entity "NIOSII_Tutorial" in file D:/Design/Altera/NIOS_Tutorial/db/ip/NIOSII_Tutorial/NIOSII_Tutorial.v compiled in library altera_reserved_qsys_NIOSII_Tutorial File: D:/Design/Altera/NIOS_Tutorial/db/ip/NIOSII_Tutorial/NIOSII_Tutorial.v Line: 6
+Info (12128): Elaborating entity "NIOSII_Tutorial" for hierarchy "NIOSII_Tutorial:inst"
+Error (12152): Can't elaborate user hierarchy "NIOSII_Tutorial:inst"
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 4 errors, 9 warnings
+    Error: Peak virtual memory: 458 megabytes
+    Error: Processing ended: Sun Jan 13 20:35:36 2013
+    Error: Elapsed time: 00:00:45
+    Error: Total CPU time (on all processors): 00:00:21
+
+

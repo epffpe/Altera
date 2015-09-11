@@ -1,0 +1,1081 @@
+Archive member included because of file (symbol)
+
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+                              ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o (alt_load)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+                              ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o (alt_main)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o) (close)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_handler)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                              c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o) (errno)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                              c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                              c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o) (__mulsi3)
+../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+_atexit0            0x190             c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00000000         0x00000020
+onchip_memory2_0 0x00000020         0x00000fe0
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/light.o
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+LOAD ../Qsys_tutorial_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+                0x00000000                __alt_mem_onchip_memory2_0 = 0x0
+
+.entry          0x00000000       0x20
+ *(.entry)
+ .entry         0x00000000       0x20 ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+                0x00000000                __reset
+
+.exceptions     0x00000020      0x194
+                0x00000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x00000020        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x00000020                alt_irq_entry
+ .exceptions.entry.label
+                0x00000020        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x00000020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x00000020       0x54 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x00000074       0x10 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x00000084        0x4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x00000088        0x4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0000008c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0000008c        0x8 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x00000094        0x4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000098        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000098        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000098       0x54 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x000000ec       0xc8 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x000000ec                alt_irq_handler
+                0x000001b4                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x000001b4     0x23c0
+                0x000001b4                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000001b4       0x3c ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+                0x000001b4                _start
+ .text          0x000001f0       0x20 obj/default/light.o
+                0x000001f0                main
+ .text          0x00000210       0xec ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000210                alt_load
+ .text          0x000002fc       0x6c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+                0x000002fc                alt_main
+ .text          0x00000368       0xb0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x00000368                alt_irq_init
+                0x0000039c                alt_sys_init
+ .text          0x00000418      0x148 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00000418                altera_avalon_jtag_uart_read_fd
+                0x00000470                altera_avalon_jtag_uart_write_fd
+                0x000004c8                altera_avalon_jtag_uart_close_fd
+                0x00000510                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x00000560      0x40c ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x00000560                altera_avalon_jtag_uart_init
+                0x000008f8                altera_avalon_jtag_uart_close
+ .text          0x0000096c       0xf4 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x0000096c                altera_avalon_jtag_uart_ioctl
+ .text          0x00000a60      0x224 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00000a60                altera_avalon_jtag_uart_read
+ .text          0x00000c84      0x240 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000c84                altera_avalon_jtag_uart_write
+ .text          0x00000ec4      0x154 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x00000ec4                alt_alarm_start
+ .text          0x00001018      0x160 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+                0x00001018                close
+ .text          0x00001178       0x1c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00001178                alt_dcache_flush_all
+ .text          0x00001194       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x000011c0      0x114 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x000011c0                alt_dev_llist_insert
+ .text          0x000012d4       0x64 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x000012d4                _do_ctors
+ .text          0x00001338       0x64 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x00001338                _do_dtors
+ .text          0x0000139c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x0000139c       0x30 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000139c                alt_icache_flush_all
+ .text          0x000013cc      0x1d4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+                0x000013cc                alt_ic_isr_register
+                0x0000141c                alt_ic_irq_enable
+                0x000014b8                alt_ic_irq_disable
+                0x00001558                alt_ic_irq_enabled
+ .text          0x000015a0       0xf8 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x000015a0                alt_iic_isr_register
+ .text          0x00001698      0x150 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x00001770                alt_io_redirect
+ .text          0x000017e8        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x000017e8        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x000017e8        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x000017e8      0x2e4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+                0x000018e0                open
+ .text          0x00001acc       0x78 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00001acc                alt_release_fd
+ .text          0x00001b44      0x1a4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00001b44                alt_alarm_stop
+                0x00001bdc                alt_tick
+ .text          0x00001ce8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00001ce8                altera_nios2_qsys_irq_init
+ .text          0x00001d08        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00001d08       0x94 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00001d08                alt_find_dev
+ .text          0x00001d9c      0x120 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x00001d9c                alt_find_file
+ .text          0x00001ebc       0xd0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x00001ebc                alt_get_fd
+ .text          0x00001f8c       0x90 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x00001f8c                alt_icache_flush
+ .text          0x0000201c       0x14 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x0000201c                atexit
+ .text          0x00002030       0x38 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                0x00002030                exit
+ .text          0x00002068        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .text          0x00002068        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .text          0x00002068       0x74 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                0x00002068                memcmp
+ .text          0x000020dc       0xa0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                0x000020dc                memcpy
+ .text          0x0000217c       0x74 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x0000217c                strlen
+ .text          0x000021f0      0x134 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                0x000021f0                __register_exitproc
+ .text          0x00002324      0x1b4 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x00002328                __call_exitprocs
+ .text          0x000024d8       0x38 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x000024d8                __mulsi3
+ .text          0x00002510       0x60 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+                0x00002550                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                0x00002570                PROVIDE (__etext, ABSOLUTE (.))
+                0x00002570                PROVIDE (_etext, ABSOLUTE (.))
+                0x00002570                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00002570                . = ALIGN (0x4)
+                0x00002570                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x00002570                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x00002570                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x00002570                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x00002570                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x00002570                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table)
+ *(.dynamic)
+                0x00002570                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+ .ctors.65535   0x00002570        0x4 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x00002574                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00002574                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00002574                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00002574                . = ALIGN (0x4)
+
+.rodata         0x00002574       0x38
+                0x00002574                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00002574                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00002574       0x14 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .rodata        0x00002588       0x14 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x0000259c        0xc ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .rodata.str1.4
+                0x000025a8        0x4 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ *(.rodata1)
+                0x000025ac                . = ALIGN (0x4)
+                0x000025ac                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00002574                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x000025ac     0x1634 load address 0x00003be0
+                0x000025ac                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x000025ac                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000025ac        0x0 ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+ .data          0x000025ac        0x0 obj/default/light.o
+ .data          0x000025ac        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000025ac        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000025ac     0x1060 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000360c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0000360c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x0000360c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x0000360c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000360c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000360c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x0000360c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x0000360c        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000360c      0x1a8 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000360c                alt_dev_null
+                0x00003634                alt_fd_list
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x000037b4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x000037b4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .data          0x000037b4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .data          0x000037b4      0x400 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data          0x00003bb4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .data          0x00003bb4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .data          0x00003bb4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .data          0x00003bb4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .data          0x00003bb4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .data          0x00003bb4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .data          0x00003bb4        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x00003bb4        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000bbb4                _gp = ABSOLUTE ((. + 0x8000))
+                0x0000bbb4                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00003bb4       0x14 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00003bb4                alt_fs_list
+                0x00003bbc                alt_dev_list
+                0x00003bc4                alt_max_fd
+ .sdata         0x00003bc8        0x4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+                0x00003bc8                alt_errno
+ .sdata         0x00003bcc        0x4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00003bcc                alt_priority_mask
+ .sdata         0x00003bd0        0x8 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00003bd0                alt_alarm_list
+ .sdata         0x00003bd8        0x8 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x00003bd8                _impure_ptr
+                0x00003bdc                _global_impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00003be0                . = ALIGN (0x4)
+                0x00003be0                _edata = ABSOLUTE (.)
+                0x00003be0                PROVIDE (edata, ABSOLUTE (.))
+                0x00003be0                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00003be0                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00005214      0x2ac
+                0x00005214                __bss_start = ABSOLUTE (.)
+                0x00005214                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x00005214                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00005214        0xc ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+                0x00005214                alt_argc
+                0x00005218                alt_argv
+                0x0000521c                alt_envp
+ .sbss          0x00005220        0x4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00005220                alt_irq_active
+ .sbss          0x00005224        0x8 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00005224                _alt_tick_rate
+                0x00005228                _alt_nticks
+ .sbss          0x0000522c        0x4 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                0x0000522c                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x00005230                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x00005230                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+ .bss           0x00005230        0x0 obj/default/light.o
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00005230        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x00005230        0x0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x00005230      0x100 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00005230                alt_irq
+ COMMON         0x00005330      0x190 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x00005330                _atexit0
+                0x000054c0                . = ALIGN (0x4)
+                0x000054c0                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x000054c0        0x0
+                0x000054c0                PROVIDE (_alt_partition_onchip_memory2_0_start, ABSOLUTE (.))
+ *(.onchip_memory2_0. onchip_memory2_0.*)
+                0x000054c0                . = ALIGN (0x4)
+                0x000054c0                PROVIDE (_alt_partition_onchip_memory2_0_end, ABSOLUTE (.))
+                0x000054c0                _end = ABSOLUTE (.)
+                0x000054c0                end = ABSOLUTE (.)
+                0x000054c0                __alt_stack_base = ABSOLUTE (.)
+                0x000054c0                PROVIDE (_alt_partition_onchip_memory2_0_load_addr, LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/light.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x00000000       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x558
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/light.o
+ .debug_aranges
+                0x00000048       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000068       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000088       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x000000a8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x000000c8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x000000e8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x00000108       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x00000128       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000148       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x00000168       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000188       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x000001a8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x000001c8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x000001e8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x00000208       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x00000228       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000248       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000268       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000288       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x000002a8       0x30 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x000002d8       0x28 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000300       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000320       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000340       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000360       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000380       0x38 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x000003b8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x000003d8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x000003f8       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000418       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x00000438       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000458       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000478       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000498       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x000004b8       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x000004d8       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x000004f8       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000518       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x00000538       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+                0x00000000      0x7e0
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b obj/default/light.o
+ .debug_pubnames
+                0x0000001b       0x1f ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_pubnames
+                0x0000003a       0x46 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_pubnames
+                0x00000080       0x34 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_pubnames
+                0x000000b4       0xa5 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_pubnames
+                0x00000159       0x55 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_pubnames
+                0x000001ae       0x34 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_pubnames
+                0x000001e2       0x33 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_pubnames
+                0x00000215       0x34 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_pubnames
+                0x00000249       0x26 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_pubnames
+                0x0000026f       0x1c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_pubnames
+                0x0000028b       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_pubnames
+                0x000002b6       0x63 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_pubnames
+                0x00000319       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_pubnames
+                0x00000344       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_pubnames
+                0x00000364       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_pubnames
+                0x00000384       0x20 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_pubnames
+                0x000003a4       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_pubnames
+                0x000003cf       0x6e ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_pubnames
+                0x0000043d       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_pubnames
+                0x00000468       0x26 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_pubnames
+                0x0000048e       0x32 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_pubnames
+                0x000004c0       0x3b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_pubnames
+                0x000004fb       0x1b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_pubnames
+                0x00000516       0x25 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_pubnames
+                0x0000053b       0x68 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_pubnames
+                0x000005a3       0x31 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_pubnames
+                0x000005d4       0x23 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_pubnames
+                0x000005f7       0x24 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_pubnames
+                0x0000061b       0x21 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_pubnames
+                0x0000063c       0x27 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_pubnames
+                0x00000663       0x2a c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_pubnames
+                0x0000068d       0x1b c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_pubnames
+                0x000006a8       0x39 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_pubnames
+                0x000006e1       0x1c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_pubnames
+                0x000006fd       0x1d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_pubnames
+                0x0000071a       0x1d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_pubnames
+                0x00000737       0x1d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_pubnames
+                0x00000754       0x2a c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_pubnames
+                0x0000077e       0x27 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_pubnames
+                0x000007a5       0x1f c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_pubnames
+                0x000007c4       0x1c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_info     0x00000000     0x9c79
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x6b ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000006b       0x85 obj/default/light.o
+ .debug_info    0x000000f0      0x27d ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000036d      0x215 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00000582      0x6c8 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00000c4a      0x7c9 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00001413      0x5f1 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00001a04      0x433 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x00001e37      0x536 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000236d      0x52e ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000289b      0x432 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x00002ccd      0x457 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00003124      0x14c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00003270      0x66f ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000038df      0x2a7 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00003b86       0xff ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x00003c85       0xfe ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00003d83      0x154 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00003ed7      0x14c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00004023      0x483 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x000044a6      0x304 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000047aa      0x685 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00004e2f       0x74 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00004ea3      0x265 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00005108      0x157 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000525f      0x515 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x00005774      0x3e2 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x00005b56      0x3ee ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x00005f44      0x153 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00006097       0x7a ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00006111      0x408 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00006519      0x40f ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x00006928      0x450 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x00006d78      0x194 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x00006f0c      0x181 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_info    0x0000708d      0x93f c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_info    0x000079cc      0x93d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_info    0x00008309       0x8c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_info    0x00008395      0x115 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_info    0x000084aa      0x106 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_info    0x000085b0       0xdb c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_info    0x0000868b      0x99c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_info    0x00009027      0x9e2 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x00009a09       0xf3 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x00009afc      0x17d ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x00000000     0x2483
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012       0x36 obj/default/light.o
+ .debug_abbrev  0x00000048       0x88 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000000d0       0xb7 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000187      0x142 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000002c9       0xf7 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x000003c0      0x17c ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x0000053c       0xf0 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x0000062c      0x191 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x000007bd      0x18d ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000094a      0x172 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00000abc       0xfb ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x00000bb7       0x3f ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000bf6       0xc7 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000cbd       0xf6 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00000db3       0x76 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x00000e29       0x76 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x00000e9f       0x5e ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000efd       0x3f ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000f3c      0x134 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x00001070      0x14e ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x000011be       0xf0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x000012ae       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x000012c0      0x10c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x000013cc       0x44 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00001410      0x112 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00001522       0xc1 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x000015e3      0x150 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x00001733       0x3f ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00001772       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00001784       0xcf ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00001853       0xcf ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00001922       0xfb ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00001a1d       0x7a ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x00001a97       0xb7 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x00001b4e      0x16e c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00001cbc      0x157 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x00001e13       0x3b c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00001e4e       0x7c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00001eca       0xb5 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00001f7f       0x8b c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000200a      0x1ae c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x000021b8      0x1de c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00002396       0x7b c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x00002411       0x72 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x00000000     0x5fe9
+ *(.debug_line)
+ .debug_line    0x00000000       0x6c ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000006c       0x64 obj/default/light.o
+ .debug_line    0x000000d0      0x211 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x000002e1      0x2c4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x000005a5      0x2a0 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000845      0x214 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000a59      0x4a5 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x00000efe      0x311 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x0000120f      0x3f1 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00001600      0x3ff ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x000019ff      0x2d6 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x00001cd5      0x293 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x00001f68      0x1af ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00002117      0x24e ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00002365      0x254 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x000025b9       0x83 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x0000263c       0x83 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x000026bf      0x1a4 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00002863      0x1b7 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00002a1a      0x2c2 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00002cdc      0x243 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00002f1f      0x2ae ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x000031cd       0x6b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00003238      0x242 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000347a       0x72 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x000034ec      0x2f9 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x000037e5       0xed ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x000038d2      0x2d6 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x00003ba8      0x1c8 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x00003d70       0xab ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00003e1b      0x265 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00004080      0x276 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x000042f6      0x291 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x00004587      0x1f3 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000477a      0x1fd c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_line    0x00004977      0x235 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_line    0x00004bac      0x227 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_line    0x00004dd3      0x1dc c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_line    0x00004faf      0x299 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_line    0x00005248      0x1ac c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_line    0x000053f4      0x267 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_line    0x0000565b      0x310 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000596b      0x364 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x00005ccf      0x11a c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x00005de9      0x200 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x00000000      0x894
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c obj/default/light.o
+ .debug_frame   0x0000002c       0x48 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000074       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000000a0       0x64 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000104       0x80 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x00000184       0x80 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x00000204       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x00000230       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000025c       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000288       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x000002b4       0x48 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x000002fc       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000328       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000354       0x48 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000039c       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x000003c8       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x000003f4       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000420       0x80 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x000004a0       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x000004cc       0x4c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000518       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000544       0x68 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x000005ac       0x30 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x000005dc       0x48 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x00000624       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x00000650       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000067c       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x000006a8       0x30 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x000006d8       0x2c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x00000704       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000724       0x28 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000074c       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000076c       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000078c       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_frame   0x000007ac       0x34 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x000007e0       0x4c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000082c       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x0000084c       0x48 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x00000000      0xb8f
+ *(.debug_str)
+ .debug_str     0x00000000       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_str     0x00000012       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_str     0x00000024       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_str     0x00000036       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_str     0x00000048       0x1a ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_str     0x00000062       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_str     0x00000074       0x1a ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_str     0x0000008e       0x1a ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_str     0x000000a8       0x23 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_str     0x000000cb       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_str     0x000000dd       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x000000ef       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_str     0x00000101       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_str     0x00000113       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_str     0x00000125       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_str     0x00000137       0x18 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_str     0x0000014f       0x1a ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_str     0x00000169       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_str     0x0000017b       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_str     0x0000018d       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_str     0x0000019f       0x1a ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_str     0x000001b9       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_str     0x000001cb       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_str     0x000001dd       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_str     0x000001ef       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_str     0x00000201       0x12 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_str     0x00000213      0x184 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                                0x1ca (size before relaxing)
+ .debug_str     0x00000397      0x387 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                                0x517 (size before relaxing)
+ .debug_str     0x0000071e       0xdc c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                0x525 (size before relaxing)
+ .debug_str     0x000007fa       0x40 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                                0x16e (size before relaxing)
+ .debug_str     0x0000083a       0xe0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x0000091a       0x6c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                                0x133 (size before relaxing)
+ .debug_str     0x00000986       0x52 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                                0x188 (size before relaxing)
+ .debug_str     0x000009d8       0x54 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                                0x52f (size before relaxing)
+ .debug_str     0x00000a2c       0x7e c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                                0x559 (size before relaxing)
+ .debug_str     0x00000aaa       0xc9 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                0x172 (size before relaxing)
+ .debug_str     0x00000b73       0x1c ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_loc      0x00000000      0xdea
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x2b obj/default/light.o
+ .debug_loc     0x0000002b       0x56 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x00000081       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x000000ac       0x81 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000012d       0xac ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_loc     0x000001d9       0xac ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_loc     0x00000285       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_loc     0x000002b0       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x000002db       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x00000306       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_loc     0x00000331       0x56 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_loc     0x00000387       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x000003b2       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_loc     0x000003dd       0x56 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x00000433       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_loc     0x0000045e       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_loc     0x00000489       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x000004b4       0xac ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x00000560       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x0000058b       0x56 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_loc     0x000005e1       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x0000060c       0x81 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_loc     0x0000068d       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_loc     0x000006b8       0x56 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_loc     0x0000070e       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_loc     0x00000739       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x00000764       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_loc     0x0000078f       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_loc     0x000007ba       0x2b ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x000007e5       0x1e c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_loc     0x00000803       0x3d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_loc     0x00000840      0x114 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x00000954       0xca c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000a1e       0x3c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00000a5a      0x120 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x00000b7a      0x1cb c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x00000d45       0x4f c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_loc     0x00000d94       0x56 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x20
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x20 ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+                0x00001000                __alt_data_end = 0x1000
+                0x00001000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x000054c0                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x000054c0                PROVIDE (__alt_heap_start, end)
+                0x00001000                PROVIDE (__alt_heap_limit, 0x1000)
+OUTPUT(Qsys_tutorial.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0x90
+ .debug_ranges  0x00000000       0x20 ../Qsys_tutorial_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x28 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000048       0x30 ../Qsys_tutorial_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000078       0x18 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
